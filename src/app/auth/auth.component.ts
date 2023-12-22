@@ -9,6 +9,9 @@ import { Admin } from '../model/Admin';
   styleUrls: ['./auth.component.css']
 })
 export class AuthComponent implements OnInit {
+  result(result: any) {
+    throw new Error('Method not implemented.');
+  }
   
   // les attributs
   idlastAdmin:number = 0;

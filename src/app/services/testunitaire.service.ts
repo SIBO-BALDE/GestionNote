@@ -3,7 +3,13 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+@Injectable({
+  providedIn: 'root',
+})
 export class TestunitaireService {
 
-  constructor() { }
+  getValue(): string {
+    return 'Hello, World!';
+  }
+  // constructor() { }
 }
